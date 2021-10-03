@@ -30,7 +30,7 @@ function App() {
       <Header />
 
       <Switch>
-        <Route path='/' exact>
+        <Route path='/app' exact>
           <Home name={name} setName={setName} fetchQuestions={fetchQuestions}></Home>        </Route>
         <Route path='/quiz' exact>
           <Quiz  

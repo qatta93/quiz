@@ -4,7 +4,7 @@ import './header.css'
 const header = () => {
     return (
     <div className="header">
-        <Link to='/' className='title'> QUIZ </Link>
+        <Link to='/app' className='title'> QUIZ </Link>
     </div>
     );
 }

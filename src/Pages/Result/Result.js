@@ -21,7 +21,7 @@ const Result = ({ name, score }) => {
             color='secondary'
             size='large'
             style={{ alignSelft: 'center', margin: '0 auto', width: '40%' }}
-            href='/app'
+            href='/home'
         
         >
             TAKE ME TO HOMEPAGE

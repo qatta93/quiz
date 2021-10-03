@@ -9,7 +9,7 @@ const Result = ({ name, score }) => {
 
     useEffect(() => {
         if (!name) {
-            history.push("/app");
+            history.push("/quiz");
         }
 
     }, [name, history]);
@@ -21,7 +21,7 @@ const Result = ({ name, score }) => {
             color='secondary'
             size='large'
             style={{ alignSelft: 'center', margin: '0 auto', width: '40%' }}
-            href='/home'
+            href='/quiz'
         
         >
             TAKE ME TO HOMEPAGE

@@ -1,0 +1,62 @@
+.content {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.settings {
+    margin-top: 8vh;
+}
+
+.settings_title {
+    width: 100%;
+    font-family: 'montseratt', sans-serif;
+    display: block;
+    width: 100vw;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+    color: #313131;
+    font-size: 5vw;
+    transition: 0.4s ease;
+    margin-bottom: 7vh;
+}
+
+@media only screen and (min-width: 768px) {
+    .settings_title {
+        font-size: 2vw;
+    }
+  }
+
+
+.settings_select {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    flex: 0.8;
+    justify-content: space-evenly;
+    row-gap: 25px;
+    width: 100%;
+}
+
+
+.settings_select * {
+    border-radius: 10px;
+    background-color: rgba(215, 238, 240, 0.808);
+    width: 50vw;
+    margin: 0 auto !important;
+    font-size: 20px;
+    color: black !important;
+}
+
+
+.settings_button {
+    margin-top: 50px;
+    font-weight: 800 !important;
+}
+
+
+input {
+    z-index: 100;
+}
+

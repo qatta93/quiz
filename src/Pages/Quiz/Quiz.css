@@ -1,0 +1,50 @@
+
+.quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    margin-top: 4%;
+  }
+  
+  .subtitle {
+    width: 100%;
+    font-family: 'montseratt', sans-serif;
+    display: block;
+    width: 100vw;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+    color: #313131;
+    font-size: 5vw;
+    transition: 0.4s ease;
+    margin-bottom: 7vh;
+    text-align: center;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .subtitle {
+        font-size: 2vw;
+    }
+  }
+  
+  .quizInfo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    font-weight: 600;
+    color: grey;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .quizInfo {
+      font-size: 15px;
+    }
+  }
+
+  .circle {
+    color: rgb(65, 62, 62) !important;
+    opacity: 0.8;
+                      
+}
